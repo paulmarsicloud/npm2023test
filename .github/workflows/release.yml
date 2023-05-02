@@ -26,7 +26,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - run: npm -v
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
