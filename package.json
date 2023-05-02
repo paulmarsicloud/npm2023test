@@ -1,8 +1,9 @@
 {
   "name": "npm2023test",
-  "version": "4.0.0",
-  "description": "test test test",
+  "version": "4.1.0",
+  "description": "test for provenance",
   "main": "index.js",
+
   "repository": {
     "type": "git",
     "url": "https://github.com/paulmarsicloud/npm2023test"
@@ -13,6 +14,6 @@
   "publishConfig": {
     "provenance": true
   },
-  "author": "",
+  "author": "Paul Marsi <paul@thecloudonmymind.com>",
   "license": "ISC"
 }
