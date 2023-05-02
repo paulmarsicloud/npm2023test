@@ -24,8 +24,10 @@ jobs:
         with:
           node-version: 16
           registry-url: "https://registry.npmjs.org"
-      - name: Install dependencies
+      - name: Install NPM for Provenance
         run: npm install -g npm
+      - name: Install Deps
+        run: yarn --frozen-lockfile
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
